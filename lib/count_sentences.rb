@@ -3,6 +3,8 @@ require 'pry'
 class String
 
   def sentence?
+    # this is their solution:
+    # self.end_with?(".")
     if self[-1] == "."
       true
     else
